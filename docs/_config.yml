@@ -12,7 +12,7 @@ tagline: >
 hero_img: home/home.jpg
 
 # Build settings
-theme: jekyll-sleek
+theme: jekyll-sleek # UNCOMMENT TO RUN LOCALLY
 remote_theme:  janczizikow/sleek
 markdown: kramdown
 highlighter: rouge # or pygments or null
