@@ -5,8 +5,11 @@ ruby --version # 2.7
 # run the setup
 Set-Location docs
 # update bundler to the correct version
-bundle config set --local path 'vendor/bundle'
-gem install bundler:2.2.26
+# gem install bundler:2.1.4
+# bundle _2.1.4_ install
+# bundle --version # 2.1.4
 # install dependencies
+bundle config set --local path 'vendor/bundle'
+gem cleanup
 bundle install
-bundle exec jekyll serve
+bundle exec jekyll serve --incremental

@@ -16,7 +16,7 @@ rbenv shell 2.7.6
 # test it by running the folllowing (you may need to open a new shell)
 ruby --version
 # 3) install build dependencies
-gem install bundler -v 2.4.22
+gem install bundler -v 2.1.4
 bundle config set --local path 'vendor/bundle'
 bundle install
 bundle exec jekyll serve
